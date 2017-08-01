@@ -1,6 +1,5 @@
 ﻿import React from 'react';
 import dotnetify from 'dotnetify';
-import { Button } from 'react-bootstrap';
 
 class SupportButtonComponent extends React.Component {
     constructor(props) {
@@ -10,11 +9,18 @@ class SupportButtonComponent extends React.Component {
 		this.state = { Greetings: "", ServerTime: "" };
 
 		
-    }
+	}
 
-    render() {
+	
+
+	render() {
+		var style = {
+			'background-color': 'green',
+			'border-radius': '5px'
+		};
+
         return (
-			<Button bsStyle="success">Send</Button>
+			<button style={style}>Send</button>
         );
     }
 }
