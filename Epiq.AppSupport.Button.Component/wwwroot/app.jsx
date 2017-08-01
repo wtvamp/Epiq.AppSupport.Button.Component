@@ -1,11 +1,11 @@
 ﻿import React from 'react';
 import ReactDOM from 'react-dom';
-import HelloWorld from 'HelloWorld.jsx';
+import SupportButtonComponent from 'SupportButtonComponent.jsx';
 import $ from 'jquery';
 
 $.connection.hub.url = "http://localhost:53035/signalr";
 
 ReactDOM.render(
-    <HelloWorld />,
+    <SupportButtonComponent />,
     document.getElementById('Content')
 );
