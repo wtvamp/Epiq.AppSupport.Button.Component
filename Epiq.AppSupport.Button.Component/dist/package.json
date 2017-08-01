@@ -1,6 +1,6 @@
 {
   "name": "epiq-appsupport-button-component",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "",
   "main": "SupportButtonComponent.js",
   "scripts": {
