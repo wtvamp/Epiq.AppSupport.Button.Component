@@ -1,7 +1,6 @@
 {
   "version": "1.0.0",
   "name": "epiq.appsupport.button.component",
-  "private": true,
   "devDependencies": {
     "babel-core": "^6.23.1",
     "babel-loader": "^6.4.0",
