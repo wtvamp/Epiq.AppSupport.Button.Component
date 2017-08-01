@@ -1,7 +1,7 @@
 ﻿import React from 'react';
 import dotnetify from 'dotnetify';
 
-class HelloWorld extends React.Component {
+class SupportButtonComponent extends React.Component {
     constructor(props) {
         super(props);
 
@@ -19,4 +19,4 @@ class HelloWorld extends React.Component {
     }
 }
 
-export default HelloWorld;
+export default SupportButtonComponent;

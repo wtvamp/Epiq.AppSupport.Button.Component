@@ -2,7 +2,7 @@
   "version": "1.0.2",
   "main": "index.js",
   "scripts": {
-    "build": "babel src/SupportButtonComponent.jsx -o SupportButtonComponent.js"
+    "build": "babel src/SupportButtonComponent.jsx -o dist/SupportButtonComponent.js"
   },
   "babel": {
     "presets": [
