@@ -2,7 +2,7 @@
 
 var webpack = require("webpack");
 module.exports = {
-    entry: "./wwwroot/app.jsx",
+    entry: "./src/app.jsx",
     output: {
         filename: "./wwwroot/bundle.js"
     },

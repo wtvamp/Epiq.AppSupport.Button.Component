@@ -1,5 +1,6 @@
 import React from 'react';
 import dotnetify from 'dotnetify';
+import SupportChatIntegrationComponent from 'epiq-appsupport-chatintegration-component';
 
 class SupportButtonComponent extends React.Component {
 	constructor(props) {

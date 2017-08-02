@@ -9,6 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="src\app.jsx" />
     <Content Include="wwwroot\index.html" />
   </ItemGroup>
   <ItemGroup>

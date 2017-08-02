@@ -3,8 +3,9 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using System.IO;
 
-namespace SayHiComponent
+namespace Epiq.AppSupport.Button.Component
 {
+    // ReSharper disable once ClassNeverInstantiated.Global
     public class Startup
     {
         public void ConfigureServices(IServiceCollection services)

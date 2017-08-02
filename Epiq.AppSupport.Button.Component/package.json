@@ -1,6 +1,6 @@
 {
-  "version": "1.0.2",
-  "main": "index.js",
+  "version": "1.0.8",
+  "main": "dist/SupportButtonComponent.js",
   "scripts": {
     "build": "babel src/SupportButtonComponent.jsx -o dist/SupportButtonComponent.js"
   },
@@ -19,9 +19,13 @@
     "dotnetify": "2.0.4-beta",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
-    "webpack": "^2.2.1"
+    "webpack": "^2.2.1",
+    "epiq-appsupport-chatintegration-component": "1.0.1"
   },
   "dependencies": {
     "react-bootstrap": "^0.31.1"
-  }
+  },
+  "files": [
+    "dist/"
+  ]
 }

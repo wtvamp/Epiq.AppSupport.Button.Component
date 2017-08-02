@@ -1,14 +1,13 @@
 ﻿import React from 'react';
 import dotnetify from 'dotnetify';
+import SupportChatIntegrationComponent from 'epiq-appsupport-chatintegration-component';
 
 class SupportButtonComponent extends React.Component {
     constructor(props) {
         super(props);
 
         dotnetify.react.connect("SayHiVM", this);
-		this.state = { Greetings: "", ServerTime: "" };
-
-		
+		this.state = { Greetings: "", ServerTime: "" };		
 	}
 
 	
