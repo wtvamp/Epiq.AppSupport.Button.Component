@@ -1,6 +1,5 @@
 ﻿import React from 'react';
 import dotnetify from 'dotnetify';
-import SupportChatIntegrationComponent from 'epiq-appsupport-chatintegration-component';
 
 class SupportButtonComponent extends React.Component {
     constructor(props) {
@@ -9,8 +8,6 @@ class SupportButtonComponent extends React.Component {
         dotnetify.react.connect("SayHiVM", this);
 		this.state = { Greetings: "", ServerTime: "" };		
 	}
-
-	
 
 	render() {
 		var style = {
@@ -23,7 +20,5 @@ class SupportButtonComponent extends React.Component {
         );
     }
 }
-
-
 
 export default SupportButtonComponent;
