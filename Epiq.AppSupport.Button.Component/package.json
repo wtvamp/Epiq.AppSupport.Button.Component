@@ -9,7 +9,7 @@
       "react"
     ]
   },
-  "name": "epiq-appsupport-button-component",
+  "name": "epiq-appsupport-chatbutton-component",
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-core": "^6.23.1",
@@ -19,11 +19,9 @@
     "dotnetify": "2.0.4-beta",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
-    "webpack": "^2.2.1",
-    "epiq-appsupport-chatintegration-component": "1.0.1"
+    "webpack": "^2.2.1"
   },
   "dependencies": {
-    "react-bootstrap": "^0.31.1"
   },
   "files": [
     "dist/"
