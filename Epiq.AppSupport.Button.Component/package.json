@@ -1,5 +1,5 @@
 {
-  "version": "1.0.9",
+  "version": "1.0.10",
   "main": "dist/SupportButtonComponent.js",
   "scripts": {
     "build": "babel src/SupportButtonComponent.jsx -o dist/SupportButtonComponent.js"

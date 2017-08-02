@@ -16,7 +16,7 @@ class SupportButtonComponent extends React.Component {
 		};
 
         return (
-			<button style={style}>Send</button>
+            <button style={style} onClick={this.props.onClick}>Send</button>
         );
     }
 }

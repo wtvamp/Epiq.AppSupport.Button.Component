@@ -2,25 +2,25 @@ import React from 'react';
 import dotnetify from 'dotnetify';
 
 class SupportButtonComponent extends React.Component {
-	constructor(props) {
-		super(props);
+    constructor(props) {
+        super(props);
 
-		dotnetify.react.connect("SayHiVM", this);
-		this.state = { Greetings: "", ServerTime: "" };
-	}
+        dotnetify.react.connect("SayHiVM", this);
+        this.state = { Greetings: "", ServerTime: "" };
+    }
 
-	render() {
-		var style = {
-			'background-color': 'green',
-			'border-radius': '5px'
-		};
+    render() {
+        var style = {
+            'background-color': 'green',
+            'border-radius': '5px'
+        };
 
-		return React.createElement(
-			'button',
-			{ style: style },
-			'Send'
-		);
-	}
+        return React.createElement(
+            'button',
+            { style: style, onClick: this.props.onClick },
+            'Send'
+        );
+    }
 }
 
 export default SupportButtonComponent;
