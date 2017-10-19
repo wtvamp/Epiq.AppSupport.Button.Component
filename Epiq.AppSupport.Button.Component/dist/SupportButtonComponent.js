@@ -6,10 +6,15 @@ class SupportButtonComponent extends React.Component {
     }
 
     render() {
+        const style = {
+            'backgroundColor': '#9ebcea',
+            'borderRadius': '5px'
+        };
+
         return React.createElement(
             'button',
-            { onClick: this.props.onClick },
-            'Open Support Chat'
+            { style: style, onClick: this.props.onClick },
+            'Start Chat'
         );
     }
 }
