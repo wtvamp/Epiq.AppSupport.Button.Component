@@ -1,5 +1,5 @@
 {
-  "version": "1.0.12",
+  "version": "1.0.0",
   "main": "dist/SupportButtonComponent.js",
   "scripts": {
     "build": "babel src/SupportButtonComponent.jsx -o dist/SupportButtonComponent.js"
@@ -9,7 +9,7 @@
       "react"
     ]
   },
-  "name": "epiq-appsupport-chatbutton-component",
+  "name": "epiq-react-components-supportbutton",
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-core": "^6.23.1",
@@ -21,8 +21,7 @@
     "react-dom": "^15.4.2",
     "webpack": "^2.2.1"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "files": [
     "dist/"
   ]
