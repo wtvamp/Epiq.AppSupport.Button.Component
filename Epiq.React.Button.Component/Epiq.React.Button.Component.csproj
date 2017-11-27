@@ -6,6 +6,9 @@
 
   <PropertyGroup>
     <PackageTargetFallback>$(PackageTargetFallback);portable-net45+win8+wp8+wpa81;</PackageTargetFallback>
+    <AssemblyName>Epiq.React.Button.Component</AssemblyName>
+    <RootNamespace>Epiq.React.Button.Component</RootNamespace>
+    <PackageId>Epiq.React.Button.Component</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
